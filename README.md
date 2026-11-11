@@ -22,9 +22,10 @@ Video BB702: https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt
 
 🚢🚢🚢
 
-Đối với khách hàng quốc tế: Vui lòng nhắn Zalo cho mình: Số lượng hàng muốn đặt, tên công ty của phía đối tác (phải là công ty phân phối tiêu dùng, không liên quan đến quân đội), và địa chỉ cảng nhận hàng. Mình sẽ làm việc với dịch vụ vận chuyển để kiểm tra chi phí vận chuyển và báo lại cho bạn. Ước lượng chi phí lấy hàng + chi phí vận chuyển sẽ chiếm 91%, bạn chuyển khoản trước 91%. Sau khi hàng thông quan, lên tàu, bạn vui lòng thanh toán 9% còn lại.
-
-For international customers: Please message me on Zalo: Quantity you want to order, your partner company name (must be a consumer distribution company, not related to military), and your port address for receiving goods. I will check with the shipping service and report the shipping cost to you. Estimated cost of goods + shipping cost = 91%, please transfer 91% in advance. After goods clear customs and board the ship, please pay the remaining 9%.
+Tiếng Việt:
+Đối với khách hàng quốc tế: Vui lòng nhắn Zalo cho mình: Số lượng hàng muốn đặt, tên công ty của phía đối tác (phải là công ty phân phối tiêu dùng, không liên quan đến quân đội), và địa chỉ cảng nhận hàng. Mình sẽ làm việc với dịch vụ vận chuyển để kiểm tra chi phí vận chuyển và báo lại cho bạn. 91% chính là chi phí lấy hàng + chi phí dịch vụ vận chuyển bao gồm thủ tục hải quan và vận chuyển, bạn chuyển khoản trước 91%. Sau khi hàng thông quan, lên tàu, bạn vui lòng thanh toán 9% còn lại.
+English:
+For international customers: Please message me on Zalo: Quantity you want to order, your partner company name (must be a consumer distribution company, not related to military), and your port address for receiving goods. I will check with the shipping service and report the shipping cost to you. 91% is the cost of goods + shipping service cost including customs procedures and shipping, please transfer 91% in advance. After goods clear customs and board the ship, please pay the remaining 9%.
 
 ---
 
