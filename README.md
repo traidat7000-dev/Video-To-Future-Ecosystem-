@@ -41,6 +41,6 @@
 ### 🎨 Lê Trương
 *Họa sĩ, Tác giả, Kỹ sư phần mềm, Người sáng lập Video To Future - Kiến trúc sư của nhân cách - Nghệ sĩ bản đồ tư duy - Nhà thơ của tương lai*  
 📍 *Saigon, Vietnam*  
-✊ *Trường kỳ kháng chiến 50 năm*
+✊ *Hành trình 50 năm*
 
 </div>
