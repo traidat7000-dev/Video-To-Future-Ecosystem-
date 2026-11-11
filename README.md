@@ -14,7 +14,7 @@
 *   **1a. Video To Future - V2F.html:** [Xem trực tuyến](https://guongktsdifferentspace.io.vn/Video%20To%20Future/V2F.html)
 *   **1b. Sách Valley Or Abyss In 5 trên Amazon:** [Mua trên Amazon](https://www.amazon.com/Valley-Abyss-Collectors-Multilingual-Vietnamese-ebook/dp/B0GRVVJS2W/)
 *   **1c. Tranh ấn bản A4 Formex 5mm trên Shopee:** [Mua trên Shopee](https://shopee.vn/product/849233923/57407302464?d_id=d2f72&uls_trackid=573g638700lb&utm_content=fJ8ZiG1pwjga5HNbFHN5iHcBqhq)
-*   **1d. Lương khô quân đội BB702:** Zalo: +84865660958 - Zalo hiện tại có thể sử dụng toàn cầu: Tải Zalo trên App Store / Google Play, chọn mã nước của bạn (Mỹ +1, Nga +7, Úc +61...), nhập số điện thoại thật để nhận mã kích hoạt. Nếu không nhận được mã SMS, bạn chọn nhận mã bằng cuộc gọi.
+*   **1d. Lương khô Quân đội nhân dân Việt Nam - BB702:** Zalo: +84 865 660 958 - Zalo hiện tại có thể sử dụng toàn cầu: Tải Zalo trên App Store / Google Play, chọn mã nước của bạn (Mỹ +1, Nga +7, Úc +61...), nhập số điện thoại thật để nhận mã kích hoạt. Nếu không nhận được mã SMS, bạn chọn nhận mã bằng cuộc gọi.
 
 / Shopee: Đang cập nhật
 
@@ -48,9 +48,9 @@ Video BB702: https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt
 > 
 > Em là họa sĩ, tác giả, kỹ sư phần mềm, người sáng lập dự án V2F!
 > 
-> Trong thời gian phát triển dự án, em giới thiệu thêm Lương Khô BB702 - Sản phẩm của Công ty 22, Bộ Quốc Phòng, để phục vụ cộng đồng!
+> Trong thời gian phát triển dự án, em giới thiệu thêm Lương Khô BB702 - Sản phẩm do Công ty Cổ phần 22 - Tổng cục Hậu cần - Bộ Quốc phòng sản xuất, để phục vụ cộng đồng!
 > 
-> Em có Lương Khô BB702 - Lương khô của Bộ Binh, do Công ty 22 - Bộ Quốc Phòng sản xuất!
+> Em có Lương Khô BB702 - Lương khô Bộ binh BB702 - Dòng lương khô dành cho Lục quân, do Công ty 22 - Bộ Quốc Phòng sản xuất!
 > 
 > 1 hộp 700g = 10 phong, 1 thùng 6 hộp = 4,2kg, giá 560.000đ.
 > 
@@ -77,6 +77,8 @@ Video BB702: https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt
 > 
 > Mỗi gia đình nên để sẵn 1 thùng trong nhà, lúc đói, lúc mưa bão, lúc mất điện là có cái ăn ngay!
 > 
+>Bạn tập gym, đi du lịch, dã ngoại, đi làm, đi học, đi chơi, đều ăn được! Nên dự trữ 1-2 thùng!
+>
 > Em cảm ơn anh/chị nhiều!  
 > **Lê Trương - V2F**
 
