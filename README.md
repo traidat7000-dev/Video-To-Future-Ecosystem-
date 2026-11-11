@@ -14,7 +14,7 @@
 *   **1a. Video To Future - V2F.html:** [Xem trực tuyến](https://guongktsdifferentspace.io.vn/Video%20To%20Future/V2F.html)
 *   **1b. Sách Valley Or Abyss In 5 trên Amazon:** [Mua trên Amazon](https://www.amazon.com/Valley-Abyss-Collectors-Multilingual-Vietnamese-ebook/dp/B0GRVVJS2W/)
 *   **1c. Tranh ấn bản A4 Formex 5mm trên Shopee:** [Mua trên Shopee](https://shopee.vn/product/849233923/57407302464?d_id=d2f72&uls_trackid=573g638700lb&utm_content=fJ8ZiG1pwjga5HNbFHN5iHcBqhq)
-*   **1d. Lương khô quân đội BB702: Đang cập nhật
+*   **1d. Lương khô quân đội BB702: Zalo: 0865660958/ Shopee: Đang cập nhật
 
 ---
 
