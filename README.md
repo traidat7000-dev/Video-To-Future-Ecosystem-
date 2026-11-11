@@ -49,8 +49,7 @@ Video BB702: https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt
 > 
 > Em có Lương Khô BB702 - Lương khô của Bộ Binh, do Công ty 22 - Bộ Quốc Phòng sản xuất!
 > 
-> 1 hộp 700g = 10 phong, giá chỉ 95.000đ/hộp!  
-> 1 thùng 6 hộp = 4,2kg, giá 560.000đ, miễn phí ship toàn quốc!
+> 1 hộp 700g = 10 phong, 1 thùng 6 hộp = 4,2kg, giá 560.000đ.
 > 
 > **Lương khô BB702 nó ngon như thế nào?**
 > 
