@@ -16,9 +16,9 @@
 *   **1c. Tranh ấn bản A4 Formex 5mm trên Shopee:** [Mua trên Shopee](https://shopee.vn/product/849233923/57407302464?d_id=d2f72&uls_trackid=573g638700lb&utm_content=fJ8ZiG1pwjga5HNbFHN5iHcBqhq)
 *   **1d. Lương khô Quân đội nhân dân Việt Nam - BB702:** Zalo: +84 865 660 958 - Zalo hiện tại có thể sử dụng toàn cầu: Tải Zalo trên App Store / Google Play, chọn mã nước của bạn (Mỹ +1, Nga +7, Úc +61...), nhập số điện thoại thật để nhận mã kích hoạt. Nếu không nhận được mã SMS, bạn chọn nhận mã bằng cuộc gọi. Zalo can now be used globally: Download Zalo on the App Store / Google Play, select your country code (USA +1, Russia +7, Australia +61...), enter your real phone number to receive the activation code. If you do not receive the SMS code, please choose to receive the code by call.
 
-/ Nếu bạn ở nước ngoài, bạn có thể nhờ người nhà ở Việt Nam đặt hàng trên Shopee của mình, người nhà sẽ gửi cho bạn theo dạng quà tặng cá nhân, đây là cách dễ nhất!
+/ Nếu bạn ở nước ngoài, bạn có thể nhờ người nhà ở Việt Nam đặt hàng trên Shopee theo link bên dưới của mình, người nhà sẽ gửi cho bạn theo dạng quà tặng cá nhân, đây là cách dễ nhất!
 
-If you are abroad, you can ask your family in Vietnam to order on my Shopee, your family will send it to you as a personal gift, this is the easiest way!
+If you are abroad, you can ask your family in Vietnam to order on my Shopee link below, your family will send it to you as a personal gift, this is the easiest way!
 
 My Shopee link: Đang cập nhật
 
