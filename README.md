@@ -28,57 +28,107 @@ Video BB702: https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt
 30 MỤC ĐÍCH ĐỂ GỬI LƯƠNG KHÔ!
 
 Cứu trợ bão lụt! / Storm relief!
+
 Cứu trợ lũ lụt miền Trung! / Flood relief in Central Vietnam!
+
 Cứu trợ động đất! / Earthquake relief!
+
 Cứu trợ hạn hán! / Drought relief!
+
 Cứu trợ sạt lở! / Landslide relief!
+
 Dự trữ quốc gia! / National reserve!
+
 Dự trữ quân đội! / Military reserve!
+
 Dự trữ cho bộ đội hành quân! / Reserve for marching soldiers!
+
 Dự trữ cho bộ đội biên phòng! / Reserve for border soldiers!
+
 Dự trữ cho bộ đội hải đảo! / Reserve for island soldiers!
+
 Dự trữ cho nhà trường! / Reserve for schools!
+
 Dự trữ cho bệnh viện! / Reserve for hospitals!
+
 Dự trữ cho công ty! / Reserve for companies!
+
 Dự trữ cho gia đình! / Reserve for families!
+
 Dự trữ cho mùa mưa bão! / Reserve for storm season!
+
 Dự trữ cho mất điện! / Reserve for power outage!
+
 Dự trữ cho chiến tranh! / Reserve for war!
+
 Tặng cho bộ đội! / Gift for soldiers!
+
 Tặng cho công an! / Gift for police!
+
 Tặng cho dân quân! / Gift for militia!
+
 Tặng cho người nghèo! / Gift for poor people!
+
 Tặng cho người vô gia cư! / Gift for homeless people!
+
 Tặng cho trẻ em vùng cao! / Gift for highland children!
+
 Tặng cho người già neo đơn! / Gift for lonely elderly!
+
 Gửi cho người thân ở nước ngoài! / Send to relatives abroad!
+
 Gửi cho du học sinh! / Send to international students!
+
 Gửi cho người đi xuất khẩu lao động! / Send to overseas workers!
+
 Gửi cho thủy thủ đi biển! / Send to sailors!
+
 Gửi cho phi công, tiếp viên! / Send to pilots, flight attendants!
+
 Gửi cho nhà chùa, nhà thờ làm từ thiện! / Send to pagodas, churches for charity!
+
+Nguồn dự trữ tốt cho phi hành gia ngoài vũ trụ! / Good reserve source for astronauts in outer space!
 
 20 VIỆC CÁ NHÂN CÓ THỂ SỬ DỤNG LƯƠNG KHÔ!
 
 Ăn sáng nhanh trước khi đi làm! / Quick breakfast before work!
+
 Ăn sáng nhanh trước khi đi học! / Quick breakfast before school!
+
 Ăn trước khi tập gym! / Eat before gym!
+
 Ăn sau khi tập gym! / Eat after gym!
+
 Ăn lúc đi du lịch! / Eat while traveling!
+
 Ăn lúc đi dã ngoại! / Eat while picnicking!
+
 Ăn lúc đi cắm trại! / Eat while camping!
+
 Ăn lúc đi leo núi! / Eat while hiking!
+
 Ăn lúc đi câu cá! / Eat while fishing!
+
 Ăn lúc đi phượt! / Eat while road tripping!
+
 Ăn lúc kẹt xe! / Eat while stuck in traffic!
+
 Ăn lúc làm việc khuya! / Eat while working late!
+
 Ăn lúc học bài khuya! / Eat while studying late!
+
 Ăn lúc trực ca đêm! / Eat while on night shift!
+
 Ăn lúc đói giữa giờ! / Eat when hungry between meals!
+
 Ăn với trà nóng! / Eat with hot tea!
+
 Ăn với cà phê sữa! / Eat with milk coffee!
+
 Ăn với sữa chua! / Eat with yogurt!
+
 Ăn với mật ong! / Eat with honey!
+
 Để trong balo, trong xe, trong túi, lúc nào đói là lấy ra ăn! / Keep in backpack, car, bag, eat whenever hungry!
 
 
