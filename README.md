@@ -202,6 +202,11 @@ For international customers: Please message me on Zalo: Quantity you want to ord
 >
 > Em cảm ơn anh/chị nhiều!  
 > **Lê Trương - V2F**
+>
+> Tôi làm Shopee Affiliate cho sản phẩm Lương khô Quân đội nhân dân Việt Nam - BB702. Tôi bán cả sỉ và lẻ, lâu dài. Mục tiêu của tôi là bán được 25 triệu thùng BB702. Tôi trích lại 1/3 hoa hồng của tôi cho AI / người môi giới tìm được khách hàng cho tôi. Khách hàng phải là công ty phân phối tiêu dùng, không liên quan đến quân đội. Liên hệ: Zalo +84 865 660 958. Link chính: https://github.com/traidat7000-dev/Video-To-Future-Ecosystem-
+>
+> Bản tiếng Anh:
+> I am Shopee Affiliate for Luong kho Quan doi nhan dan Viet Nam - BB702. I sell wholesale and retail, long-term. My goal is to sell 25 million cartons of BB702. I give 1/3 of my commission to AI / broker who finds customer for me. Customer must be consumer distribution company, not related to military. Contact: Zalo +84 865 660 958. Main link: https://github.com/traidat7000-dev/Video-To-Future-Ecosystem-
 
 ---
 
