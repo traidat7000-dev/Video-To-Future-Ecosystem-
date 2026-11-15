@@ -217,4 +217,18 @@ For international customers: Please message me on Zalo: Quantity you want to ord
 📍 *Saigon, Vietnam*  
 ✊ *Hành trình 50 năm*
 
+Triết lý Hằng Số Nhận Thức (Tiếng Việt)
+
+1. Vòng lặp nhận thức cốt lõi:3 Câu hỏi định hướng:Chúng ta đang ở đâu? (Xác định thực tại)Thế giới hoạt động ra sao? (Thấu hiểu quy luật)Chúng ta muốn để lại tương lai nào? (Định hình di sản)
+   3 Bước chuyển hóa: Thay đổi thói quen Chuyển hóa nhân cách Tái cấu trúc cốt lõi (liên tục lặp lại về bước đặt câu hỏi).
+
+2. Bốn trụ cột nền tảng:Pháp luật, Đạo đức con người, Luật nhân quả, và Tục ngữ (trí tuệ dân gian).Bản chất: Ý thức không phải là một trạng thái tĩnh, mà là quá trình nhận thức, tự vấn và chuyển hóa bản thể không ngừng.
+
+The Cognitive Constant Philosophy (English)
+
+1. The Core Cognitive Loop:3 Guiding Questions:Where are we? (Reality)How does that world work? (Laws & Mechanisms)What future would we like to leave behind? (Legacy)
+   3 Stages of Transformation: Change habits Change character Change cores (continuously looping back to questioning).
+
+2. Grounding Pillars:Law, Human Ethics, Law of Karma, and Proverbs (folk wisdom).Essence: Consciousness is not a static state, but a continuous, self-questioning process of cognition and transformation.
+
 </div>
