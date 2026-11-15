@@ -170,6 +170,7 @@ For international customers: Please message me on Zalo: Quantity you want to ord
 > https://letruongvideotofuture.blogspot.com/2026/11/luong-kho-bo-binh-bb702-tu-ban-lam-viec.html
 > https://letruongvideotofuture.blogspot.com/2026/11/luong-kho-bo-binh-bb702-mach-song-kien.html
 > https://letruongvideotofuture.blogspot.com/2026/11/luong-kho-bo-binh-bb702-huong-vi-cua.html
+> https://web.archive.org/web/20261115161044/https://traidat7000-dev.github.io/Video-To-Future-Ecosystem-/
 
 ---
 
