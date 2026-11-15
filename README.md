@@ -22,7 +22,7 @@ If you are abroad, you can ask your family in Vietnam to order on my Shopee link
 
 My Shopee link: Đang cập nhật
 
-Video BB702: https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt
+Video BB702: https://lnkd.in/p/gP6DW_8y
 
 ---
 
