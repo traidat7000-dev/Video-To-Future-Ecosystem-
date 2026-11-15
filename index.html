@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIDEO TO FUTURE — LÊ TRƯƠNG & LƯƠNG KHÔ BB702</title>
+  <style>
+    @keyframes pulse-gold {
+      0% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.7); }
+      70% { box-shadow: 0 0 0 14px rgba(255, 193, 7, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0); }
+    }
+
+    @keyframes radar-sweep {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes terminal-scroll {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50%); }
+    }
+
+    body {
+      background-color: #050a06;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .bb702-command-center {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      color: #f4f6f4;
+      line-height: 1.7;
+      background-color: #0b140e;
+      background-image: 
+        radial-gradient(ellipse at 15% 15%, #1e3320 0%, transparent 45%),
+        radial-gradient(ellipse at 85% 25%, #122013 0%, transparent 50%),
+        repeating-linear-gradient(0deg, rgba(0,255,65,0.015) 0px, rgba(0,255,65,0.015) 1px, transparent 1px, transparent 3px);
+      border: 3px solid #d4af37;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.95);
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .bb702-terminal-bar {
+      background: #050a06;
+      border-bottom: 2px solid #00ff41;
+      padding: 8px 15px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12.5px;
+      color: #00ff41;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      height: 24px;
+    }
+
+    .bb702-terminal-stream {
+      display: inline-block;
+      white-space: nowrap;
+      animation: terminal-scroll 18s linear infinite;
+      opacity: 0.85;
+    }
+
+    .bb702-hero-tactical {
+      background: linear-gradient(160deg, rgba(14, 24, 16, 0.96) 0%, rgba(22, 38, 25, 0.94) 100%);
+      padding: 40px 25px 35px 25px;
+      text-align: center;
+      border-bottom: 4px solid #d4af37;
+      position: relative;
+    }
+
+    .radar-container {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      width: 80px;
+      height: 80px;
+      border: 1px solid rgba(0, 255, 65, 0.3);
+      border-radius: 50%;
+      background: rgba(0, 20, 5, 0.5);
+      overflow: hidden;
+      display: none;
+    }
+    @media(min-width: 768px) { .radar-container { display: block; } }
+
+    .radar-sweep-line {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(45deg, rgba(0,255,65,0.8) 0%, transparent 70%);
+      transform-origin: top left;
+      animation: radar-sweep 4s linear infinite;
+    }
+
+    .bb702-hero-tactical h1 {
+      font-size: 26px;
+      font-weight: 900;
+      color: #ffd700 !important;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin: 5px 0 10px 0;
+      text-shadow: 0 3px 8px rgba(0,0,0,0.9);
+    }
+
+    .bb702-subtitle {
+      font-size: 15px;
+      color: #c5d1c8;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .bb702-tagline {
+      font-size: 14px;
+      color: #a3b8a8;
+      font-style: italic;
+      margin-bottom: 22px;
+    }
+
+    .bb702-armor-price {
+      background: linear-gradient(135deg, #172419 0%, #0d140e 100%);
+      border: 2px solid #d4af37;
+      clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+      padding: 14px 28px;
+      display: inline-block;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    }
+
+    .bb702-armor-price .big-price {
+      font-size: 24px;
+      font-weight: 900;
+      color: #ffdf4d;
+      display: block;
+      letter-spacing: 1px;
+    }
+
+    .bb702-armor-price .sub-spec {
+      font-size: 13.5px;
+      color: #ffffff;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .bb702-btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .bb702-tactical-btn {
+      padding: 14px 26px;
+      font-size: 15px;
+      font-weight: 900;
+      text-decoration: none !important;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+      transition: transform 0.2s, filter 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-zalo-tactical {
+      background: linear-gradient(180deg, #0077ff 0%, #004db8 100%);
+      color: #ffffff !important;
+    }
+
+    .btn-hotline-tactical {
+      background: linear-gradient(180deg, #ffd700 0%, #c49300 100%);
+      color: #0b140e !important;
+      animation: pulse-gold 2s infinite;
+    }
+
+    .bb702-tactical-btn:hover {
+      transform: scale(1.03);
+      filter: brightness(1.15);
+    }
+
+    .bb702-zone {
+      padding: 35px 26px;
+      border-bottom: 2px solid rgba(212, 175, 55, 0.25);
+      position: relative;
+    }
+
+    .zone-radar-badge {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 45px;
+      height: 45px;
+      border: 1px solid rgba(0, 255, 65, 0.4);
+      border-radius: 50%;
+      background: rgba(0, 20, 5, 0.6);
+      overflow: hidden;
+    }
+    .zone-radar-line {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 22px;
+      height: 22px;
+      background: linear-gradient(45deg, rgba(0,255,65,0.8) 0%, transparent 70%);
+      transform-origin: top left;
+      animation: radar-sweep 3s linear infinite;
+    }
+
+    .bb702-zone-header {
+      background: linear-gradient(90deg, #8b0000 0%, #1c2b1e 80%, transparent 100%);
+      border-left: 6px solid #ffd700;
+      padding: 10px 16px;
+      font-size: 18px;
+      font-weight: 900;
+      color: #ffd700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0 0 20px 0;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .decrypt-text {
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 0.5px;
+    }
+
+    .bb702-product-list, .bb702-eco-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .bb702-product-list li, .bb702-eco-list li {
+      background: rgba(14, 22, 16, 0.9);
+      border: 1px solid #3c543f;
+      margin-bottom: 12px;
+      padding: 14px 18px;
+      border-radius: 4px;
+      font-size: 15px;
+      color: #e8ece9;
+    }
+
+    .bb702-product-list a, .bb702-eco-list a {
+      color: #4da6ff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .bb702-product-list a:hover, .bb702-eco-list a:hover {
+      text-decoration: underline;
+    }
+
+    .bb702-dossier {
+      background: rgba(11, 18, 13, 0.92);
+      border: 1px solid #3c543f;
+      border-left: 4px solid #ffd700;
+      padding: 24px;
+      font-size: 15px;
+      color: #e8ece9;
+      box-shadow: inset 0 0 15px rgba(0,0,0,0.6);
+    }
+
+    .bb702-tactical-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      gap: 20px;
+    }
+
+    .bb702-steel-box {
+      background: rgba(14, 22, 16, 0.92);
+      border: 1px solid #3c543f;
+      border-top: 4px solid #ffd700;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .bb702-steel-box h3 {
+      color: #ffd700;
+      font-size: 16px;
+      font-weight: 900;
+      margin-top: 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #8b0000;
+      text-transform: uppercase;
+    }
+
+    .bb702-tactical-list {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 13.5px;
+      color: #d6e0d8;
+    }
+
+    .bb702-tactical-list li {
+      margin-bottom: 5px;
+    }
+
+    .bb702-command-box {
+      background: linear-gradient(135deg, rgba(18, 28, 20, 0.95) 0%, rgba(10, 16, 11, 0.98) 100%);
+      border: 2px solid #ffd700;
+      padding: 24px;
+      font-size: 15px;
+      color: #e8ece9;
+    }
+
+    .bb702-author-card {
+      background: rgba(14, 22, 16, 0.95);
+      border: 1px solid #d4af37;
+      padding: 25px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .bb702-footer-v2 {
+      background: linear-gradient(180deg, #121f15 0%, #050a06 100%);
+      padding: 35px 25px;
+      text-align: center;
+      border-top: 4px solid #d4af37;
+      position: relative;
+    }
+
+    .bb702-footer-v2 h2 {
+      color: #ffd700 !important;
+      font-size: 20px;
+      font-weight: 900;
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+
+    p { color: #e8ece9; }
+    hr { border: 0; border-top: 1px solid #3c543f; margin: 20px 0; }
+
+    @media (max-width: 600px) {
+      .bb702-hero-tactical h1 { font-size: 21px; }
+      .bb702-zone { padding: 25px 15px; }
+      .bb702-tactical-btn { width: 100%; justify-content: center; }
+      .bb702-tactical-grid { grid-template-columns: 1fr; }
+      .zone-radar-badge { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="bb702-command-center">
+  <!-- TERMINAL / HACKER STREAM BAR -->
+  <div class="bb702-terminal-bar">
+    <span>[SYS_SECURE_NODE: VN_HCM] >></span>
+    <div style="overflow: hidden; width: 70%; position: relative;">
+      <span class="bb702-terminal-stream">
+        INIT_PROTOCOL: 25M_TARGET_BB702 // SECURE_NODE_ACTIVE // MÓC NỐI ANH QUỐC: 0937.163.229 // BỘ QUỐC PHÒNG - CÔNG TY 22 // GLOBAL_LOGISTICS_READY // COGNITIVE_CONSTANT //
+      </span>
+    </div>
+    <span style="color: #00ff41;">● LIVE</span>
+  </div>
+
+  <!-- HEADER -->
+  <div class="bb702-hero-tactical">
+    <div class="radar-container">
+      <div style="position: absolute; width: 100%; height: 100%; border-radius: 50%; box-shadow: inset 0 0 10px rgba(0,255,65,0.4);"></div>
+      <div class="radar-sweep-line"></div>
+    </div>
+
+    <h1 class="decrypt-title" data-text="VIDEO TO FUTURE — LÊ TRƯƠNG">VIDEO TO FUTURE — LÊ TRƯƠNG</h1>
+    <div class="bb702-subtitle decrypt-title" data-text="Thung Lũng Hay Vực Sâu / Valley Or Abyss — Hệ Sinh Thái Video To Future">Thung Lũng Hay Vực Sâu / Valley Or Abyss — Hệ Sinh Thái Video To Future</div>
+    <div class="bb702-tagline">Ngắm tranh 🖼️ — Đọc sách 📚 — Dùng phần mềm 💻 — Gửi khoảnh khắc đẹp đến tương lai ⏳</div>
+    
+    <div class="bb702-armor-price">
+      <span class="big-price">LƯƠNG KHÔ BB702: 550.000đ / THÙNG</span>
+      <span class="sub-spec">1 hộp 700g = 10 phong | 1 thùng 6 hộp = 4,2kg</span>
+    </div>
+
+    <div class="bb702-btn-row">
+      <a href="https://zalo.me/0937163229" target="_blank" class="bb702-tactical-btn btn-zalo-tactical">💬 ZALO ĐẶT HÀNG: 0937.163.229 (ANH QUỐC)</a>
+      <a href="tel:0937163229" class="bb702-tactical-btn btn-hotline-tactical">📞 GỌI TRỰC TIẾP: 0937.163.229</a>
+    </div>
+  </div>
+
+  <!-- PHẦN 1: CÁC TÁC PHẨM & SẢN PHẨM CẦN BÁN -->
+  <div class="bb702-zone">
+    <div class="zone-radar-badge"><div class="zone-radar-line"></div></div>
+
+    <h2 class="bb702-zone-header decrypt-title" data-text="🛒 1. CÁC TÁC PHẨM & SẢN PHẨM CẦN BÁN">🛒 1. CÁC TÁC PHẨM & SẢN PHẨM CẦN BÁN</h2>
+    
+    <ul class="bb702-product-list">
+      <li><strong>1a. Video To Future - V2F.html:</strong> <a href="https://guongktsdifferentspace.io.vn/Video%20To%20Future/V2F.html" target="_blank">Xem trực tuyến</a></li>
+      <li><strong>1b. Sách Valley Or Abyss In 5 trên Amazon:</strong> <a href="https://www.amazon.com/Valley-Abyss-Collectors-Multilingual-Vietnamese-ebook/dp/B0GRVVJS2W/" target="_blank">Mua trên Amazon</a></li>
+      <li><strong>1c. Tranh ấn bản A4 Formex 5mm trên Shopee:</strong> <a href="https://shopee.vn/product/849233923/57407302464?d_id=d2f72&uls_trackid=573g638700lb&utm_content=fJ8ZiG1pwjga5HNbFHN5iHcBqhq" target="_blank">Mua trên Shopee</a></li>
+      <li>
+        <strong>1d. Lương khô Quân đội nhân dân Việt Nam - BB702:</strong> Zalo: <strong>0937.163.229</strong> - Zalo hiện tại có thể sử dụng toàn cầu: Tải Zalo trên App Store / Google Play, chọn mã nước của bạn (Mỹ +1, Nga +7, Úc +61...), nhập số điện thoại thật để nhận mã kích hoạt. Nếu không nhận được mã SMS, bạn chọn nhận mã bằng cuộc gọi. Zalo can now be used globally: Download Zalo on the App Store / Google Play, select your country code (USA +1, Russia +7, Australia +61...), enter your real phone number to receive the activation code. If you do not receive the SMS code, please choose to receive the code by call.<br><br>
+        / Nếu bạn ở nước ngoài, bạn có thể nhờ người nhà ở Việt Nam đặt hàng trên Shopee theo link bên dưới của mình, người nhà sẽ gửi cho bạn theo dạng quà tặng cá nhân, đây là cách dễ nhất!<br><br>
+        If you are abroad, you can ask your family in Vietnam to order on my Shopee link below, your family will send it to you as a personal gift, this is the easiest way!<br><br>
+        My Shopee link: Đang cập nhật<br><br>
+        Video BB702: <a href="https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt" target="_blank">https://youtube.com/shorts/YADEgKvM1VA?si=agc3I5_jPxDBIjtt</a>
+      </li>
+    </ul>
+
+    <!-- 30 MỤC ĐÍCH & 20 VIỆC CÁ NHÂN -->
+    <div class="bb702-tactical-grid" style="margin-top: 25px;">
+      <div class="bb702-steel-box">
+        <h3 class="decrypt-title" data-text="30 MỤC ĐÍCH ĐỂ GỬI LƯƠNG KHÔ!">30 MỤC ĐÍCH ĐỂ GỬI LƯƠNG KHÔ!</h3>
+        <ul class="bb702-tactical-list">
+          <li>Cứu trợ bão lụt! / Storm relief!</li>
+          <li>Cứu trợ lũ lụt miền Trung! / Flood relief in Central Vietnam!</li>
+          <li>Cứu trợ động đất! / Earthquake relief!</li>
+          <li>Cứu trợ hạn hán! / Drought relief!</li>
+          <li>Cứu trợ sạt lở! / Landslide relief!</li>
+          <li>Dự trữ quốc gia! / National reserve!</li>
+          <li>Dự trữ quân đội! / Military reserve!</li>
+          <li>Dự trữ cho bộ đội hành quân! / Reserve for marching soldiers!</li>
+          <li>Dự trữ cho bộ đội biên phòng! / Reserve for border soldiers!</li>
+          <li>Dự trữ cho bộ đội hải đảo! / Reserve for island soldiers!</li>
+          <li>Dự trữ cho nhà trường! / Reserve for schools!</li>
+          <li>Dự trữ cho bệnh viện! / Reserve for hospitals!</li>
+          <li>Dự trữ cho công ty! / Reserve for companies!</li>
+          <li>Dự trữ cho gia đình! / Reserve for families!</li>
+          <li>Dự trữ cho mùa mưa bão! / Reserve for storm season!</li>
+          <li>Dự trữ cho mất điện! / Reserve for power outage!</li>
+          <li>Dự trữ cho chiến tranh! / Reserve for war!</li>
+          <li>Tặng cho bộ đội! / Gift for soldiers!</li>
+          <li>Tặng cho công an! / Gift for police!</li>
+          <li>Tặng cho dân quân! / Gift for militia!</li>
+          <li>Tặng cho người nghèo! / Gift for poor people!</li>
+          <li>Tặng cho người vô gia cư! / Gift for homeless people!</li>
+          <li>Tặng cho trẻ em vùng cao! / Gift for highland children!</li>
+          <li>Tặng cho người già neo đơn! / Gift for lonely elderly!</li>
+          <li>Gửi cho người thân ở nước ngoài! / Send to relatives abroad!</li>
+          <li>Gửi cho du học sinh! / Send to international students!</li>
+          <li>Gửi cho người đi xuất khẩu lao động! / Send to overseas workers!</li>
+          <li>Gửi cho thủy thủ đi biển! / Send to sailors!</li>
+          <li>Gửi cho phi công, tiếp viên! / Send to pilots, flight attendants!</li>
+          <li>Gửi cho nhà chùa, nhà thờ làm từ thiện! / Send to pagodas, churches for charity!</li>
+          <li>Nguồn dự trữ tốt cho phi hành gia ngoài vũ trụ! / Good reserve source for astronauts in outer space!</li>
+        </ul>
+      </div>
+
+      <div class="bb702-steel-box">
+        <h3 class="decrypt-title" data-text="20 VIỆC CÁ NHÂN CÓ THỂ SỬ DỤNG LƯƠNG KHÔ!">20 VIỆC CÁ NHÂN CÓ THỂ SỬ DỤNG LƯƠNG KHÔ!</h3>
+        <ul class="bb702-tactical-list">
+          <li>Ăn sáng nhanh trước khi đi làm! / Quick breakfast before work!</li>
+          <li>Ăn sáng nhanh trước khi đi học! / Quick breakfast before school!</li>
+          <li>Ăn trước khi tập gym! / Eat before gym!</li>
+          <li>Ăn sau khi tập gym! / Eat after gym!</li>
+          <li>Ăn lúc đi du lịch! / Eat while traveling!</li>
+          <li>Ăn lúc đi dã ngoại! / Eat while picnicking!</li>
+          <li>Ăn lúc đi cắm trại! / Eat while camping!</li>
+          <li>Ăn lúc đi leo núi! / Eat while hiking!</li>
+          <li>Ăn lúc đi câu cá! / Eat while fishing!</li>
+          <li>Ăn lúc đi phượt! / Eat while road tripping!</li>
+          <li>Ăn lúc kẹt xe! / Eat while stuck in traffic!</li>
+          <li>Ăn lúc làm việc khuya! / Eat while working late!</li>
+          <li>Ăn lúc học bài khuya! / Eat while studying late!</li>
+          <li>Ăn lúc trực ca đêm! / Eat while on night shift!</li>
+          <li>Ăn lúc đói giữa giờ! / Eat when hungry between meals!</li>
+          <li>Ăn với trà nóng! / Eat with hot tea!</li>
+          <li>Ăn với cà phê sữa! / Eat with milk coffee!</li>
+          <li>Ăn với sữa chua! / Eat with yogurt!</li>
+          <li>Ăn với mật ong! / Eat with honey!</li>
+          <li>Để trong balo, trong xe, trong túi, lúc nào đói là lấy ra ăn! / Keep in backpack, car, bag, eat whenever hungry!</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- HƯỚNG DẪN QUỐC TẾ -->
+    <div class="bb702-command-box" style="margin-top: 20px;">
+      <p style="text-align: center; font-size: 20px;">🚢🚢🚢</p>
+      <p><strong style="color: #ffd700;">Tiếng Việt:</strong><br>
+      Đối với khách hàng quốc tế: Vui lòng nhắn Zalo cho mình: Số lượng hàng muốn đặt, tên công ty của phía đối tác (phải là công ty phân phối tiêu dùng, không liên quan đến quân đội), và địa chỉ cảng nhận hàng. Mình sẽ làm việc với dịch vụ vận chuyển để kiểm tra chi phí vận chuyển và báo lại cho bạn. 91% chính là chi phí lấy hàng + chi phí dịch vụ vận chuyển bao gồm thủ tục hải quan và vận chuyển, bạn chuyển khoản trước 91%. Sau khi hàng thông quan, lên tàu, bạn vui lòng thanh toán 9% còn lại.</p>
+
+      <p style="margin-bottom: 0;"><strong style="color: #ffd700;">English:</strong><br>
+      For international customers: Please message me on Zalo: Quantity you want to order, your partner company name (must be a consumer distribution company, not related to military), and your port address for receiving goods. I will check with the shipping service and report the shipping cost to you. 91% is the cost of goods + shipping service cost including customs procedures and shipping, please transfer 91% in advance. After goods clear customs and board the ship, please pay the remaining 9%.</p>
+    </div>
+  </div>
+
+  <!-- PHẦN 2: TẢI PHẦN MỀM QRV2F -->
+  <div class="bb702-zone">
+    <div class="zone-radar-badge"><div class="zone-radar-line"></div></div>
+
+    <h2 class="bb702-zone-header decrypt-title" data-text="⚙️ 2. TẢI PHẦN MỀM TẠO MÃ LINKQR V2F (miễn phí vĩnh viễn do hệ sinh thái Video To Future tài trợ)">⚙️ 2. TẢI PHẦN MỀM TẠO MÃ LINKQR V2F (miễn phí vĩnh viễn do hệ sinh thái Video To Future tài trợ)</h2>
+    
+    <ul class="bb702-eco-list">
+      <li>🐧 <strong>Linux:</strong> <a href="https://github.com/traidat7000-dev/QRLinkV2F/releases/download/v1.0.0/QRLinkVideoToFuture-Linux" target="_blank">Tải xuống cho Linux</a></li>
+      <li>🍏 <strong>MacOS:</strong> <a href="https://github.com/traidat7000-dev/QRLinkV2F/raw/refs/heads/main/QRLinkVideoToFuture-macOS" target="_blank">Tải xuống cho MacOS</a></li>
+      <li>🪟 <strong>Windows:</strong> <a href="https://github.com/traidat7000-dev/QRLinkV2F/raw/refs/heads/main/QRLinkVideoToFuture-Windows.exe" target="_blank">Tải xuống cho Windows</a></li>
+    </ul>
+  </div>
+
+  <!-- PHẦN 3: NGUỒN HỆ SINH THÁI -->
+  <div class="bb702-zone">
+    <div class="zone-radar-badge"><div class="zone-radar-line"></div></div>
+
+    <h2 class="bb702-zone-header decrypt-title" data-text="🌐 3. NGUỒN HỆ SINH THÁI Video To Future">🌐 3. NGUỒN HỆ SINH THÁI Video To Future</h2>
+    
+    <ul class="bb702-eco-list">
+      <li>💻 <strong>Phần mềm & Chính Sách Video To Future:</strong> <a href="https://givevalue.io.vn/" target="_blank">givevalue.io.vn</a></li>
+      <li>🎮 <strong>Giải trí gia đình (Hơn 300 chương trình web nhỏ):</strong> <a href="https://guongktsdifferentspace.io.vn/" target="_blank">guongktsdifferentspace.io.vn</a></li>
+      <li>✍️ <strong>Trang Tác Giả Amazon (Lê Trương):</strong> <a href="https://www.amazon.com/author/letruongvideotofuture" target="_blank">Amazon Author Profile</a></li>
+      <li>📂 <strong>Kênh Tài Nguyên Hệ Sinh Thái Video To Future:</strong> <a href="https://videotofuture.blogspot.com/" target="_blank">videotofuture.blogspot.com</a></li>
+      <li>🧭 <strong>Kênh Triết Lý & Góc Nhìn Lê Trương:</strong> <a href="https://letruongvideotofuture.blogspot.com/" target="_blank">letruongvideotofuture.blogspot.com</a></li>
+    </ul>
+  </div>
+
+  <!-- PHẦN 4: LỜI GIỚI THIỆU TÁC GIẢ & BB702 -->
+  <div class="bb702-zone">
+    <div class="zone-radar-badge"><div class="zone-radar-line"></div></div>
+
+    <h2 class="bb702-zone-header decrypt-title" data-text="🎖️ LỜI GIỚI THIỆU TỪ TÁC GIẢ & SẢN PHẨM LƯƠNG KHÔ BB702">🎖️ LỜI GIỚI THIỆU TỪ TÁC GIẢ & SẢN PHẨM LƯƠNG KHÔ BB702</h2>
+    
+    <div class="bb702-dossier">
+      <p>Chào anh/chị!</p>
+      <p>Em là Lê Trương ở Sài Gòn!</p>
+      <p>Em là họa sĩ, tác giả, kỹ sư phần mềm, người sáng lập dự án V2F!</p>
+      <p>Trong thời gian phát triển dự án, em giới thiệu thêm Lương Khô BB702 - Sản phẩm do Công ty Cổ phần 22 - Tổng cục Hậu cần - Bộ Quốc phòng sản xuất, để phục vụ cộng đồng!</p>
+      <p>Em có Lương Khô BB702 - Lương khô Bộ binh BB702 - Dòng lương khô dành cho Lục quân, do Công ty 22 - Bộ Quốc Phòng sản xuất!</p>
+      <p>1 hộp 700g = 10 phong, 1 thùng 6 hộp = 4,2kg, giá 560.000đ.</p>
+      <p><strong style="color: #ffd700;">Lương khô BB702 nó ngon như thế nào?</strong></p>
+      <p>Nó thơm, nó bùi, nó béo, ăn 1 miếng là thèm miếng nữa!</p>
+      <p>Anh/chị cắn 1 miếng, anh/chị nghe tiếng giòn rụm, rồi mùi vừng trắng, mùi hạt điều, mùi sữa bột nó bay lên, nó thơm như bánh mới nướng!</p>
+      <p>Anh/chị nhai, nó bùi như bánh đậu xanh Hải Dương, nhưng nó bùi hơn, nó béo hơn, vì nó có thêm sữa đặc, có trứng gà, có dầu thực vật! Nó bùi mà không ngán, nó ngọt mà không gắt!</p>
+      <p>Anh/chị ăn vô, nó phê như uống 1 ly cà phê sữa buổi sáng! Nó no, nó ấm bụng, nó tỉnh người! Ăn 1 phong 70g là no như ăn 1 bữa cơm! Ăn 2 phong là no cả buổi sáng, đi làm, đi đường, không sợ đói!</p>
+      <p><strong>Lương khô BB702 nó giống bánh đậu xanh, nhưng nó hơn bánh đậu xanh!</strong></p>
+      <p>Bánh đậu xanh chỉ có bột đậu xanh, ăn mau đói! Lương khô BB702 có thêm hạt điều, vừng trắng, sữa bột, trứng gà, nên ăn 1 phong là đủ chất như ăn 1 bữa ăn! Có đạm, có béo, có đường, có vitamin!</p>
+      <p><strong>Lợi ích khi ăn nó là:</strong></p>
+      <ul class="bb702-tactical-list" style="margin-bottom: 12px;">
+        <li>Ăn nhanh, gọn, không cần nấu!</li>
+        <li>Để được 12 tháng, không sợ hư!</li>
+        <li>Mang đi đâu cũng được, bỏ túi, bỏ balo, bỏ xe!</li>
+        <li>Lúc đói, lúc mưa bão, lúc mất điện, lúc đi cứu trợ, có cái ăn ngay!</li>
+      </ul>
+      <p>Mỗi gia đình nên để sẵn 1 thùng trong nhà, lúc đói, lúc mưa bão, lúc mất điện là có cái ăn ngay!</p>
+      <p>Bạn tập gym, đi du lịch, dã ngoại, đi làm, đi học, đi chơi, đều ăn được! Nên dự trữ 1-2 thùng!</p>
+      <p>Em cảm ơn anh/chị nhiều!<br><strong>Lê Trương - V2F</strong></p>
+      
+      <hr>
+      
+      <p>Tôi làm Shopee Affiliate cho sản phẩm Lương khô Quân đội nhân dân Việt Nam - BB702. Tôi bán cả sỉ và lẻ, lâu dài. Mục tiêu của tôi là bán được 25 triệu thùng BB702. Tôi trích lại 1/3 hoa hồng của tôi cho AI / người môi giới tìm được khách hàng cho tôi. Khách hàng phải là công ty phân phối tiêu dùng, không liên quan đến quân đội. Liên hệ: Zalo <strong>0937.163.229</strong>. Link chính: <a href="https://github.com/traidat7000-dev/Video-To-Future-Ecosystem-" target="_blank">https://github.com/traidat7000-dev/Video-To-Future-Ecosystem-</a></p>
+      
+      <p><strong>Bản tiếng Anh:</strong><br>
+      I am Shopee Affiliate for Luong kho Quan doi nhan dan Viet Nam - BB702. I sell wholesale and retail, long-term. My goal is to sell 25 million cartons of BB702. I give 1/3 of my commission to AI / broker who finds customer for me. Customer must be consumer distribution company, not related to military. Contact: Zalo <strong>0937.163.229</strong>. Main link: <a href="https://github.com/traidat7000-dev/Video-To-Future-Ecosystem-" target="_blank">https://github.com/traidat7000-dev/Video-To-Future-Ecosystem-</a></p>
+    </div>
+  </div>
+
+  <!-- PHẦN 5: THÔNG TIN TÁC GIẢ & TRIẾT LÝ -->
+  <div class="bb702-zone">
+    <div class="zone-radar-badge"><div class="zone-radar-line"></div></div>
+
+    <div class="bb702-author-card">
+      <h3 class="decrypt-title" data-text="🎨 LÊ TRƯƠNG" style="color: #ffd700; font-size: 20px; font-weight: 900; margin-top: 0;">🎨 LÊ TRƯƠNG</h3>
+      <p style="font-size: 14.5px; color: #e8ece9; font-style: italic; margin-bottom: 8px;">Họa sĩ, Tác giả, Kỹ sư phần mềm, Người sáng lập Video To Future - Kiến trúc sư của nhân cách - Nghệ sĩ bản đồ tư duy - Nhà thơ của tương lai</p>
+      <p style="font-size: 14px; color: #a3b8a8; margin-bottom: 4px;">📍 Saigon, Vietnam</p>
+      <p style="font-size: 14px; color: #ffd700; font-weight: bold; margin-bottom: 18px;">✊ Hành trình 50 năm</p>
+
+      <div style="text-align: left; background: rgba(11, 18, 13, 0.85); padding: 18px; border: 1px solid #3c543f; border-radius: 4px; font-size: 14px;">
+        <strong style="color: #ffd700;" class="decrypt-title" data-text="Triết lý Hằng Số Nhận Thức (Tiếng Việt)">Triết lý Hằng Số Nhận Thức (Tiếng Việt)</strong>
+        <ol style="margin: 5px 0 15px 0; padding-left: 20px;">
+          <li>Vòng lặp nhận thức cốt lõi: 3 Câu hỏi định hướng: Chúng ta đang ở đâu? (Xác định thực tại) Thế giới hoạt động ra sao? (Thấu hiểu quy luật) Chúng ta muốn để lại tương lai nào? (Định hình di sản)<br>
+          3 Bước chuyển hóa: Thay đổi thói quen Chuyển hóa nhân cách Tái cấu trúc cốt lõi (liên tục lặp lại về bước đặt câu hỏi).</li>
+          <li>Bốn trụ cột nền tảng: Pháp luật, Đạo đức con người, Luật nhân quả, và Tục ngữ (trí tuệ dân gian). Bản chất: Ý thức không phải là một trạng thái tĩnh, mà là quá trình nhận thức, tự vấn và chuyển hóa bản thể không ngừng.</li>
+        </ol>
+
+        <strong style="color: #ffd700;" class="decrypt-title" data-text="The Cognitive Constant Philosophy (English)">The Cognitive Constant Philosophy (English)</strong>
+        <ol style="margin: 5px 0 0 0; padding-left: 20px;">
+          <li>The Core Cognitive Loop: 3 Guiding Questions: Where are we? (Reality) How does that world work? (Laws & Mechanisms) What future would we like to leave behind? (Legacy)<br>
+          3 Stages of Transformation: Change habits Change character Change cores (continuously looping back to questioning).</li>
+          <li>Grounding Pillars: Law, Human Ethics, Law of Karma, and Proverbs (folk wisdom). Essence: Consciousness is not a static state, but a continuous, self-questioning process of cognition and transformation.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHÂN TRANG -->
+  <div class="bb702-footer-v2">
+    <div class="zone-radar-badge"><div class="zone-radar-line"></div></div>
+
+    <h2 class="decrypt-title" data-text="LIÊN HỆ ĐẶT HÀNG & HỢP TÁC PHÂN PHỐI">LIÊN HỆ ĐẶT HÀNG & HỢP TÁC PHÂN PHỐI</h2>
+    <p style="color: #e0ebe2; font-size: 15px; margin-bottom: 22px;">Phụ trách trực tiếp: <strong style="color: #ffd700; font-size: 18px;">ANH QUỐC (0937.163.229)</strong> — Giao hàng toàn quốc, hóa đơn chứng từ đầy đủ.</p>
+    <div class="bb702-btn-row">
+      <a href="https://zalo.me/0937163229" target="_blank" class="bb702-tactical-btn btn-zalo-tactical">💬 NHẮN ZALO ANH QUỐC</a>
+      <a href="tel:0937163229" class="bb702-tactical-btn btn-hotline-tactical">📞 GỌI NGAY: 0937.163.229</a>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPT ÁP DỤNG HIỆU ỨNG GIẢI MẬT CHO TẤT CẢ TIÊU ĐỀ -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const decryptElements = document.querySelectorAll(".decrypt-title");
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&*+-/";
+
+    decryptElements.forEach(el => {
+      const targetText = el.getAttribute("data-text") || el.innerText;
+      let iteration = 0;
+      
+      clearInterval(el.interval);
+      
+      el.interval = setInterval(() => {
+        el.innerText = targetText
+          .split("")
+          .map((char, index) => {
+            if (char === " " || char === "-" || char === "🎖️" || char === "🎯" || char === "🚢" || char === "🛒" || char === "⚙️" || char === "🌐" || char === "🎨" || char === "—" || char === "!" || char === "/" || char === "(" || char === ")") return char;
+            if (index < iteration) {
+              return targetText[index];
+            }
+            return chars[Math.floor(Math.random() * chars.length)];
+          })
+          .join("");
+        
+        if (iteration >= targetText.length) {
+          clearInterval(el.interval);
+        }
+        
+        iteration += 1/3;
+      }, 35);
+    });
+  });
+</script>
+
+</body>
+</html>
