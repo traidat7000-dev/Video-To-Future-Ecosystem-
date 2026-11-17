@@ -20,7 +20,44 @@
 
 If you are abroad, you can ask your family in Vietnam to order on my Shopee link below, your family will send it to you as a personal gift, this is the easiest way!
 
-My Shopee link: Đang cập nhật
+My Shopee link: Video To Future Supply
+https://s.shopee.vn/5q9oXkStwu
+
+https://s.shopee.vn/5fqOLRTXHt
+
+https://s.shopee.vn/5VWy98UAcs
+
+https://s.shopee.vn/5LDXwpUnxr
+
+https://s.shopee.vn/6VPVKyQMb6
+
+https://s.shopee.vn/6L658fQzw5
+
+https://s.shopee.vn/6AmewMRdH4
+
+https://s.shopee.vn/60TEk3SGc3
+
+https://s.shopee.vn/7AfC8CNpFI
+
+https://s.shopee.vn/70LlvtOSaH
+
+https://s.shopee.vn/6q2LjaP5vG
+
+https://s.shopee.vn/6fivXHPjGF
+
+https://s.shopee.vn/7pusvQLHtU
+
+https://s.shopee.vn/7fbSj7LvET
+
+https://s.shopee.vn/30pdAmzCBT
+
+https://s.shopee.vn/2BGWBG2MsK
+
+https://s.shopee.vn/20x5yx30DJ
+
+https://s.shopee.vn/2VtMZs16CQ
+
+https://s.shopee.vn/2LZwNZ1jXP
 
 Video BB702: https://lnkd.in/p/gP6DW_8y
 
