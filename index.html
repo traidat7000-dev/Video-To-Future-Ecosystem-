@@ -641,9 +641,22 @@
 </script>
 
 
-<!-- [ĐOẠN CODE NHẠC NỀN TỐI ƯU MỌI TRÌNH DUYỆT] -->
+<!-- [ĐOẠN CODE NHẠC NỀN & TẠO NÚT TẮT ÂM CHUẨN XÁC] -->
 <div id="hidden-youtube-player" style="display: none; width: 0; height: 0; overflow: hidden;"></div>
 <script>
+  // Tự động thêm nút Tắt/Bật âm thanh trực tiếp vào cuối thanh terminal đầu trang
+  document.addEventListener("DOMContentLoaded", function() {
+    const terminalBar = document.querySelector('.bb702-terminal-bar');
+    if (terminalBar && !document.getElementById('toggle-audio-btn')) {
+      const audioBtn = document.createElement('button');
+      audioBtn.id = 'toggle-audio-btn';
+      audioBtn.innerHTML = '🔊 TẮT ÂM';
+      audioBtn.onclick = toggleAudio;
+      audioBtn.style.cssText = 'background: #122013; color: #00ff41; border: 1px solid #00ff41; padding: 2px 8px; font-family: "Courier New", Courier, monospace; font-size: 11px; cursor: pointer; border-radius: 3px; margin-left: 10px;';
+      terminalBar.appendChild(audioBtn);
+    }
+  });
+
   var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -658,7 +671,7 @@
       events: { 
         'onReady': function(event) {
           event.target.playVideo();
-          // Cơ chế dự phòng thông minh: Ngay khi khách bấm chuột BẤT CỨ ĐÂU trên trang, nhạc sẽ tự động bật vang lên ngay lập tức
+          // Hỗ trợ kích hoạt âm thanh mượt mà sau cú click đầu tiên của người dùng trên trang
           document.body.addEventListener('click', function() {
             if (player && typeof player.unMute === 'function') {
               player.unMute();
