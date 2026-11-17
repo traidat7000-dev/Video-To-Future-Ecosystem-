@@ -641,27 +641,9 @@
 </script>
 
 
-<!-- [ĐOẠN CODE NHẠC NỀN YOUTUBE TỰ ĐỘNG VÀ NÚT TẮT/BẬT ÂM THANH] -->
+<!-- [ĐOẠN CODE NHẠC NỀN TỐI ƯU MỌI TRÌNH DUYỆT] -->
 <div id="hidden-youtube-player" style="display: none; width: 0; height: 0; overflow: hidden;"></div>
 <script>
-  // Tự động chèn nút Tắt/Bật âm thanh vào thanh Terminal ở đầu trang
-  document.addEventListener("DOMContentLoaded", function() {
-    const terminalBar = document.querySelector('.bb702-terminal-bar');
-    if (terminalBar) {
-      const audioControlDiv = document.createElement('div');
-      audioControlDiv.innerHTML = '<button id="toggle-audio-btn" onclick="toggleAudio()" style="background: #122013; color: #00ff41; border: 1px solid #00ff41; padding: 2px 8px; font-family: \'Courier New\', Courier, monospace; font-size: 11px; cursor: pointer; border-radius: 3px;">🔊 TẮT ÂM</button><span style="color: #00ff41; margin-left: 5px;">● LIVE</span>';
-      
-      // Tìm và thay thế phần chữ ● LIVE cũ trên thanh terminal thành nút bấm này
-      const liveSpan = terminalBar.querySelector('span[style*="color: #00ff41"]');
-      if (liveSpan && liveSpan.parentNode !== terminalBar) {
-        liveSpan.parentNode.replaceWith(audioControlDiv);
-      } else {
-        terminalBar.appendChild(audioControlDiv);
-      }
-    }
-  });
-
-  // Tải API YouTube và phát nhạc ngầm tự động
   var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -673,11 +655,21 @@
       height: '0', width: '0',
       videoId: 'cc5iYwpShK4',
       playerVars: { 'autoplay': 1, 'loop': 1, 'playlist': 'cc5iYwpShK4', 'controls': 0 },
-      events: { 'onReady': function(event) { event.target.playVideo(); } }
+      events: { 
+        'onReady': function(event) {
+          event.target.playVideo();
+          // Cơ chế dự phòng thông minh: Ngay khi khách bấm chuột BẤT CỨ ĐÂU trên trang, nhạc sẽ tự động bật vang lên ngay lập tức
+          document.body.addEventListener('click', function() {
+            if (player && typeof player.unMute === 'function') {
+              player.unMute();
+              player.playVideo();
+            }
+          }, { once: true });
+        }
+      }
     });
   }
 
-  // Hàm xử lý nút Tắt / Bật âm thanh
   function toggleAudio() {
     var btn = document.getElementById('toggle-audio-btn');
     if (player && typeof player.isMuted === 'function') {
