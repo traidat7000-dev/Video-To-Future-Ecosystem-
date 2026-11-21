@@ -149,6 +149,8 @@ For international customers: Please message me on Zalo: Quantity you want to ord
 * ✍️ **Trang Tác Giả Amazon (Lê Trương):** [Amazon Author Profile](https://www.amazon.com/author/letruongvideotofuture)
 * 📂 **Kênh Tài Nguyên Hệ Sinh Thái Video To Future:** [videotofuture.blogspot.com](https://videotofuture.blogspot.com/)
 * 🧭 **Kênh Triết Lý & Góc Nhìn Lê Trương:** [letruongvideotofuture.blogspot.com](https://letruongvideotofuture.blogspot.com/)
+* 🤖 **Giáo trình dành cho AI học trên Hugging Face:** [Hugging Face - Video To Future Ecosystem](https://huggingface.co/datasets/Video2future/video-to-future-ecosystem-le-truong)
+* 📖 **Giáo trình Video To Future trên Paragraph:** [Paragraph - Giáo trình kiến trúc nhân cách cho AI](https://paragraph.com/@[STRIPPED 78 bytes])
 
 ---
 
