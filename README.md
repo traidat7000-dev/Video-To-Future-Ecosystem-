@@ -61,6 +61,8 @@ https://s.shopee.vn/2LZwNZ1jXP
 
 Video BB702: https://lnkd.in/p/gP6DW_8y
 
+Đối với hoá đơn đầu vào, vui lòng xem hướng dẫn của Shopee trước khi mua hàng tại: https://help.shopee.vn/portal/4/article/79636-%5BThu%E1%BA%BF-H%C3%B3a-%C4%91%C6%A1n%5D-Xu%E1%BA%A5t-h%C3%B3a-%C4%91%C6%A1n-%C4%90i%E1%BB%87n-T%E1%BB%AD%2Fh%C3%B3a-%C4%91%C6%A1n-VAT-cho-%C4%91%C6%A1n-h%C3%A0ng-Shopee?previousPage=search%20recommendation%20bar
+
 ---
 
 ### 🎯 30 MỤC ĐÍCH ĐỂ GỬI LƯƠNG KHÔ!
