@@ -61,6 +61,36 @@ https://s.shopee.vn/2LZwNZ1jXP
 
 Video BB702: https://lnkd.in/p/gP6DW_8y
 
+Đặc sản lương khô - Cứu trợ bão lụt:
+
+    Liên kết: http://www.youtube.com/watch?v=jypf0Gcp_fo
+
+    Nội dung chính: Chia sẻ về lương khô quân đội (xuất hiện từ thời kháng chiến chống Mỹ, khoảng hơn 60 năm), ưu điểm tiện lợi không cần nấu nướng trong mùa bão lũ, cách dự trữ trong ba lô/điểm hẹn di tản và so sánh lịch sử các loại bánh truyền thống Việt Nam.
+
+Đặc sản lương khô - Cứu trợ động đất
+
+    Liên kết: http://www.youtube.com/watch?v=0RTlq6dcAx8
+
+    Nội dung chính: Nhắc đến tình trạng động đất tại Nhật Bản (nơi người thân đang sinh sống và học tập), gợi ý mang theo lương khô gọn nhẹ khi đi làm/đi học và dự trữ tại nhà hoặc điểm di tản, đồng thời đề cập đến việc đặt hàng qua các liên kết trên video.
+
+Đặc sản lương khô - Dự trữ cho công ty đồ ăn sáng hoàn hảo
+
+    Liên kết: http://www.youtube.com/watch?v=0GkuUteoTJg
+
+    Nội dung chính: Gợi ý doanh nghiệp/công ty nhỏ (khoảng 10 người) dự trữ lương khô làm bữa sáng nhanh gọn, nêu thông tin dinh dưỡng và thành phần của gói 70g, ước tính chi phí theo thùng và hướng dẫn xem link/đặt hàng.
+
+Đặc sản lương khô - Dự trữ cả năm cho gia đình
+
+    Liên kết: http://www.youtube.com/watch?v=5bqMeuhuxiE
+
+    Nội dung chính: Hướng dẫn dự trữ lương khô cho gia đình, gợi ý tặng cho người khó khăn/làm từ thiện hoặc gửi cho người thân, du học sinh, người lao động ở nước ngoài, thủy thủ, phi công, tiếp viên và nhắc đến khả năng đóng gói hút chân không.
+
+Đặc sản lương khô - 20 ứng dụng của lương khô trong cuộc sống
+
+    Liên kết: http://www.youtube.com/watch?v=JNSrc3_u0Ws
+
+    Nội dung chính: Liệt kê các tình huống sử dụng hằng ngày (ăn sáng, trước/sau tập gym, du lịch, cắm trại, leo núi, câu cá, đi phượt, làm việc/học khuya, trực ca đêm, ăn với trà/cà phê), lưu ý hạn dùng 12 tháng, hỏi hóa đơn khi mua số lượng lớn và liên hệ đặt hàng/phân phối.
+
 Đối với hoá đơn đầu vào, vui lòng xem hướng dẫn của Shopee trước khi mua hàng tại: https://help.shopee.vn/portal/4/article/79636-%5BThu%E1%BA%BF-H%C3%B3a-%C4%91%C6%A1n%5D-Xu%E1%BA%A5t-h%C3%B3a-%C4%91%C6%A1n-%C4%90i%E1%BB%87n-T%E1%BB%AD%2Fh%C3%B3a-%C4%91%C6%A1n-VAT-cho-%C4%91%C6%A1n-h%C3%A0ng-Shopee?previousPage=search%20recommendation%20bar
 
 ---
